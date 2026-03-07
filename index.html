@@ -1,15 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>SEED RESORT: Prototype Development</title>
+        <title>SEED Resort - Luxury Hotel & Resort Experience</title>
         <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Experience luxury at SEED Resort - featuring courts, hydraulic parking, pristine beaches, and world-class amenities.">
         <link rel="stylesheet" href="styles.css"/>
         <script src="script.js" defer></script>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <!--This is the body, if there is a mistake revrse through commit-->
+        <!-- Header/Navigation -->
+        <header class="header">
+            <nav class="nav">
+                <div class="nav-container">
+                    <div class="logo">
+                        <h1>SEED</h1>
+                        <span>RESORT</span>
+                    </div>
+                    <ul class="nav-menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Welcome to SEED Resort</h2>
+                <p>Where luxury meets innovation in the heart of paradise</p>
+                <a href="#contact" class="btn-primary">Book Your Stay</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About SEED Resort</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>SEED Resort represents the future of luxury hospitality, combining cutting-edge technology with unparalleled comfort. Our innovative design incorporates the latest advancements in resort amenities while maintaining the timeless elegance of traditional luxury.</p>
+                        <p>Experience a resort that goes beyond expectations, where every detail is crafted to provide an extraordinary stay for our discerning guests.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>Luxurious+</h3>
+                            <p>Resort Stay</p>
+                        </div>
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Unique Features</p>
+                        </div>
+                        <div class="stat">
+                            <h3>24/7</h3>
+                            <p>Concierge Service</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <div class="container">
+                <h2>Exclusive Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🏓</div>
+                        <h3>Sports Courts</h3>
+                        <p>Professional-grade tennis and basketball courts for the ultimate athletic experience.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🚗</div>
+                        <h3>Hydraulic Parking</h3>
+                        <p>Revolutionary automated parking system for seamless vehicle storage and retrieval.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🏖️</div>
+                        <h3>Private Beaches</h3>
+                        <p> pristine white-sand beaches with crystal-clear waters and exclusive cabanas.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🐔</div>
+                        <h3>Poultry & Equestrian</h3>
+                        <p>Experience farm-to-table dining with our on-site poultry and horse riding facilities.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🏎️</div>
+                        <h3>Karting Track</h3>
+                        <p>Adrenaline-pumping go-kart racing on our professionally designed track.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌟</div>
+                        <h3>Luxury Amenities</h3>
+                        <p>World-class spa, fine dining, and personalized concierge services.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h2>Resort Gallery</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=400" alt="Luxury Resort Room">
+                        <div class="gallery-overlay">
+                            <h4>Luxury Accommodations</h4>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400" alt="Beach View">
+                        <div class="gallery-overlay">
+                            <h4>Stunning Beach Views</h4>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?w=400" alt="Sports Facilities">
+                        <div class="gallery-overlay">
+                            <h4>Sports & Recreation</h4>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1414609245224-afa02bfb3fda?w=400" alt="Dining Experience">
+                        <div class="gallery-overlay">
+                            <h4>Fine Dining</h4>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400" alt="Spa & Wellness">
+                        <div class="gallery-overlay">
+                            <h4>Spa & Wellness</h4>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400" alt="Adventure Activities">
+                        <div class="gallery-overlay">
+                            <h4>Adventure Activities</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Book Your Experience</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Visit SEED Resort</h3>
+                        <p><strong>Developed for:</strong>  AL FORSAN</p>
+                        <p><strong>Date of website development:</strong> 2026</p>
+                        <p><strong>Email:</strong> agastya27naik@gmail.com</p>
+                        <div class="contact-features">
+                            <h4>Why Choose SEED?</h4>
+                            <ul>
+                                <li>✓ Cutting-edge technology integration</li>
+                                <li>✓ Personalized guest experiences</li>
+                                <li>✓ Sustainable luxury practices</li>
+                                <li>✓ 24/7 premium service</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form id="bookingForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" required placeholder="Your Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+                            </div>
+                            <div class="form-group">
+                                <input type="date" id="checkin" name="checkin" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="date" id="checkout" name="checkout" required>
+                            </div>
+                            <div class="form-group">
+                                <select id="roomType" name="roomType" required>
+                                    <option value="">Select Room Type</option>
+                                    <option value="deluxe">Deluxe Suite</option>
+                                    <option value="premium">Premium Villa</option>
+                                    <option value="luxury">Luxury Penthouse</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn-primary">Request Booking</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3>SEED Resort</h3>
+                        <p>Redefining luxury hospitality for the modern traveler.</p>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Connect With Us</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link">📘 Facebook</a>
+                            <a href="#" class="social-link">📷 Instagram</a>
+                            <a href="#" class="social-link">🐦 Twitter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 SEED Resort. All rights reserved. | Prototype Development</p>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>

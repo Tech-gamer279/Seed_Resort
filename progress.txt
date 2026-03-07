@@ -1,3 +1,13 @@
 6 march 2026 : Made the files, including html,
 js, and css. README AND MIT licence has also been
 included
+
+7 march 2026 : Built complete SEED Resort website framework
+- Created comprehensive HTML structure with all sections
+- Added modern CSS styling with responsive design
+- Implemented JavaScript for interactivity and form handling
+- Features include navigation, hero section, about, features, gallery, contact form, and footer
+- Mobile-responsive design with hamburger menu
+- Form validation and submission handling
+- Smooth scrolling and scroll animations
+- Gallery modal functionality
