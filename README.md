@@ -14,4 +14,6 @@ lots of new future and possibilties. SEED prototype includes:
 
 [] A defined karting system
 
+[] WAter sports
+
  This is a prototype ONLY
